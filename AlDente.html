@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="autor" content="Jennifer Rodríguez">
-    <meta name="descripción" content="Portfolio de Jennifer Rodríguez">
+    <meta name="descripción"
+        content="Portfolio de Jennifer Rodríguez, Diseño de UX/UI Al Dente Sitio web de tutoriales de cocina">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
     <title>
-        Al Dente - Jennifer Rodríguez - Portfolio
+        Al Dente - Diseño de UX/UI - Jennifer Rodríguez
     </title>
     <link rel="icon" type="image/png" sizes="16x16" href="/Fotos Comprimidas/favicon-16x16-min.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,25 +20,19 @@
     <link rel="stylesheet" type="text/css" href="AlDente.css">
 </head>
 
-<body class="body">
+<body>
     <header class="header">
         <nav class="nav">
-            <ul class="ul">
-                <li class="li"><a href="index.html" title="Inicio" class="a" target="_self"
-                        rel="noopener noreferrer">INICIO</a></li>
-                <li class="li"><a href="UX.html" title="Experiencia de Usuario" class="a" target="_self"
-                        rel="noopener noreferrer">EXPERIENCIA DE USUARIO</a>
-                </li>
-                <li class="li"><a href="DEV.html" title="Programación" class="a" target="_self"
-                        rel="noopener noreferrer">PROGRAMACIÓN</a></li>
-                <li class="li"><a href="ELE.html" title="Electrónica" class="a" target="_self"
-                        rel="noopener noreferrer">ELECTRÓNICA</a></li>
-                <li class="li"><a href="SM.html" title="Sobre mi" class="a" target="_self"
-                        rel="noopener noreferrer">SOBRE MÍ</a></li>
-                <li class="li"><a href="SM.html#CTO" title="Contacto" class="a" target="_self"
-                        rel="noopener noreferrer">CONTACTO</a></li>
-                <li class="li"><a href="Start.html" title="IDIOMA" class="a" target="_self"
-                        rel="noopener noreferrer">ENGLISH</a></li>
+            <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" title="Inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="UX.html" title="Experiencia de Usuario" class="nav-link">Experiencia de
+                        Usuario</a></li>
+                <li class="nav-item"><a href="DEV.html" title="Programación" class="nav-link">Programación</a></li>
+                <li class="nav-item"><a href="ELE.html" title="Electrónica" class="nav-link">Electrónica</a></li>
+                <li class="nav-item"><a href="SM.html" title="Sobre mi" class="nav-link">Sobre Mí</a></li>
+                <li class="nav-item"><a href="SM.html#CTO" title="Contacto" class="nav-link">Contacto</a></li>
+                <li class="nav-item"><a href="Start.html" hreflang="en" title="IDIOMA" class="nav-link">English</a></li>
             </ul>
         </nav>
     </header>
@@ -45,11 +42,16 @@
                 alt="Imagen de portada del estudio de caso de Al Dente, comida de fondo, vista blureada, hay una laptop en medio que tiene el diseño web de la sitio web de Al Dente. De lado derecho esta la informacion del estudio de caso y esta hecho en forms y figma."
                 class="img">
         </div>
+        <a href="UX.html" class="back button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg> Atrás
+        </a>
         <div class="Info">
             <div class="contimg">
                 <img src="Imagenes/UX/Al Dente/Al Dente.png"
                     alt="Imagen blureada de comida de fondo, en medio se puede observar el logo de Al dente y una laptop con el diseño deñ sitio web de Al Dente"
-                    class="img">
+                    class="img" loading="lazy">
             </div>
             <div class="continf">
                 <h4 class="h4">El problema</h4>
@@ -101,7 +103,8 @@
                 </table>
             </div>
         </div>
-        <div class="UR">
+        <hr>
+        <section class="UR">
             <h4 class="h4">Investigación de usuarios:</h4>
             <p class="p">Mediante una encuesta, identifique las necesidades y preferencias de los usuarios, que
                 incluían la falta de un plan semanal de comidas, dificultades para encontrar recetas apropiadas por
@@ -115,16 +118,17 @@
                 <div class="UR1">
                     <img src="Imagenes/UX/Al Dente/Persona.jpg"
                         alt="Imagen de Persona de Marianela de Palma, una persona que representa a un grupo de usuario que muestra los problemas de los usuarios, viene explicando su problema"
-                        class="img">
+                        class="img" loading="lazy">
                 </div>
                 <div class="UR2">
                     <img src="Imagenes/UX/Al Dente/Journey.jpg"
                         alt="Mapa de recorrido de usuario de Marianela la Palma, describe por pasos la situacion que le genera un problema y su solucion sin el diseño web"
-                        class="img">
+                        class="img" loading="lazy">
                 </div>
             </div>
-        </div>
-        <div class="Dis">
+        </section>
+        <hr>
+        <section class="Dis">
             <h4 class="h4">Diseños:</h4>
             <p class="p">Para iniciar el proceso de diseño, comencé con la elaboración de bocetos en papel para las
                 páginas clave. Seleccione las versiones más prometedoras para desarrollar una versión final atractiva
@@ -133,15 +137,16 @@
             <div class="disimg">
                 <div class="DIS1">
                     <img src="Imagenes/UX/Al Dente/Wireframe de papel.jpg" alt="Diseño del wireframe del papel simple"
-                        class="img">
+                        class="img" loading="lazy">
                 </div>
                 <div class="DIS2">
                     <img src="Imagenes/UX/Al Dente/Wireframe Digital.jpg"
-                        alt="Diseño del wireframe digital de baja fidelidad" class="img">
+                        alt="Diseño del wireframe digital de baja fidelidad" class="img" loading="lazy">
                 </div>
             </div>
-        </div>
-        <div class="EU">
+        </section>
+        <hr>
+        <section class="EU">
             <h4 class="h4">Estudio de usabilidad:</h4>
             <p class="p">Realice un estudio de usabilidad remoto e independiente con la participación de cinco
                 usuarios. A partir de este proceso, identifique tres conclusiones significativas:</p>
@@ -159,11 +164,12 @@
                 <div class="EUI">
                     <img src="Imagenes/UX/Al Dente/EU.jpg"
                         alt="Imagen del diseño e wireframe y su evolucion a la maqueta de alta fidelidad del mismo diseño"
-                        class="img">
+                        class="img" loading="lazy">
                 </div>
             </div>
-        </div>
-        <div class="HIFI">
+        </section>
+        <hr>
+        <section class="HIFI">
             <h4 class="h4">Maquetas y prototipo de alta fidelidad:</h4>
             <p class="p">A partir de los resultados del estudio de usabilidad, se llevaron a cabo ajustes y mejoras
                 significativas, integrando diversos detalles que condujeron a la creación de las maquetas finales. Los
@@ -172,14 +178,25 @@
                     href="https://www.figma.com/proto/JJAqFvxjsIs3UBBRSaqaqa/Floridea-Wireframes?node-id=327%3A298&scaling=scale-down&page-id=188%3A166&starting-point-node-id=327%3A298"
                     class="a" target="_blank" rel="noopener noreferrer">Prototipo de alta fidelidad de
                     AlDente</a></span>
-            <img src="Imagenes/UX/Al Dente/HIFI.jpg" alt="" class="img">
-        </div>
-        <div class="conclu">
+            <img src="Imagenes/UX/Al Dente/HIFI.jpg"
+                alt="Imagenes de las maquetas version web de al dente en el que se ve la pagina priniciapl, la pagina de recetas, la pagina de planifica tu menu y la pagina de tips"
+                class="img">
+            <div class="iframe-container">
+                <h4 class="h4">Enlace Estudio de Caso AlDente en Behance</h4>
+                <iframe src="https://www.behance.net/embed/project/235870017?ilo0=1" class="iframe" height="316" width="404"
+                    allowfullscreen lazyload frameborder="0" allow="clipboard-write"
+                    refererPolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </section>
+        <hr>
+        <section class="conclu">
             <h4 class="h4">Conclusiones y próximos pasos:</h4>
-            <p class="p">Reconocí la importancia de cuidar la salud a través de la alimentación, ya que puede tener un
+            <p class="p">Reconocí la importancia de cuidar la salud a través de la alimentación, ya que puede tener
+                un
                 impacto significativo en nuestras vidas. Además, comprendí cómo las necesidades y preferencias del
                 usuario son fundamentales para ofrecer soluciones de diseño efectivas. Valorar el feedback de una
-                audiencia diversa se ha reafirmado como un elemento crucial para mejorar continuamente el proyecto de
+                audiencia diversa se ha reafirmado como un elemento crucial para mejorar continuamente el proyecto
+                de
                 diseño. Este proceso también me permitió aprender a adaptar la visualización de un sitio web de PC a
                 dispositivos móviles de manera efectiva.</p>
             <br>
@@ -194,10 +211,13 @@
                 <li class="li">Agregar videos o tips con chefs famosos para mejorar las habilidades culinarias.</li>
                 <li class="li">Agregar alternativas vegetarianas o veganas de las recetas.</li>
             </ul>
+        </section>
+
     </main>
     <footer class="footer">
-        <span class="span">Jennifer Rodríguez Torres / 2024.</span>
+        <span class="span">Jennifer Rodríguez Torres / 2025.</span>
     </footer>
+    <script src="MenuHamburguesa.js"></script>
 </body>
 
 </html>
